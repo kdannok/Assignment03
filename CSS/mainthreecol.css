@@ -1,0 +1,162 @@
+ 
+            .main-header{
+                
+                height:10%;
+                margin:5px 10px;
+                border: solid black;
+                
+            }
+            header h1{
+                margin: 5px;
+               background-color:whitesmoke;
+                padding: 5px;
+                height:40px;
+               
+            }
+            
+            .box-shadow {
+                box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
+                -webkit-box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
+                -moz-box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
+                -o-box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
+            }
+             .footer{
+                border: solid black;
+                height: 75%;
+                margin:15px 8px;
+                padding:6px;
+                line-height:.5em;
+                
+            }
+            .copyright {
+                color: black;
+                font-weight: bold;
+                width: 69%;
+                text-align: center;
+                padding: 10px 15%;
+                margin: 2px 2px 2px;
+               background-color: whitesmoke;
+                overflow:flex;
+            }
+            .main-content{
+                height: 600px;
+                background-color:beige;
+                
+                
+            }
+            .sidebar-left{
+                margin: 8px 5px;
+                border: 1pt black solid;
+                height:inherit;
+                width:30%;
+                background-color:silver;
+                float:left;
+            }
+             .sidebar-left h1{
+                border-bottom: solid 1pt  black;
+                 background-color:transparent;
+                 text-align: center;
+                 width:50%;
+                 margin-left: 20%;
+            }
+            a:link{
+                display: block;
+                text-decoration:none;
+                margin: 5% 0;
+                padding: 5px;
+                height: 50%;
+                width:98%;
+                background-color:antiquewhite;
+                border: 1pt solid black;
+                border-radius: 5px;
+                color: black;
+            }
+            a:visted{
+                color:palegreen;
+            }
+            a:hover{
+                background-color:lightgoldenrodyellow;
+                font-weight:bold;
+                border-radius:5px;
+            }
+            .linklist-item{
+                width: 75%;
+                padding:5% 0 0 5%;
+                margin: 0 0 0 10%;
+                border: 1px solid black;
+                background-color:beige;
+                
+            }
+           
+            ul{
+                 list-style:none;
+            }
+            .sidebar-right{
+                margin: 8px 5px;
+                border: 1pt black solid;
+                height:inherit;
+                width:30%;
+                background-color:silver;
+                float:right;  
+            }
+                .sidebar-right h1{
+                border-bottom: solid 1pt  black;
+                 background-color:transparent;
+                 text-align: center;
+                 width:50%;
+                 margin-left: 20%;
+            }
+            .sidebar-right p{
+                width: 75%;
+                margin: 0 5%;
+                border: 1px solid black;
+                background-color:palegoldenrod;
+              
+            }
+            .center-content{
+                position:relative;
+                overflow:auto;
+                background-color:papayawhip;
+                border: 1pt solid black;
+                margin-top: 10px;
+                height:500px;
+            }
+                .center-content h1{
+                border-bottom: solid 1pt  black;
+                 background-color:transparent;
+                 text-align: center;
+                 width:50%;
+                 margin-left: 20%;
+            }
+             
+            table.courses-table {
+                width:65%;
+                height:50%;
+                padding: 5% 5%;
+                margin-top:10%;
+                margin-left: 10%;
+                border: 1pt solid black;
+                background-color:beige;
+            }
+            table.courses-table th, td{
+                border: 1pt solid black;
+                margin: 0px 0px;
+            }
+            table.courses-table tr {
+                display:inline-grid;
+                padding:5px 5px;
+                background-color:ghostwhite;
+                border:1pt solid black;
+                transition-duration:0.7s;
+            }
+          
+            table.courses-table tr:nth-child(even) {
+                background-color:#CCC;
+            }
+            table.courses-table tr:hover {
+                background-color:yellow;
+            }
+            .logout-btn{
+                margin:5% 5%;
+                font-weight: bold;
+            }
